@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Check, ArrowRight, Shield, Zap, BarChart3, PlugZap, Factory, Bot, Gauge, CalendarCheck, Mail } from "lucide-react";
+import { color } from "three/tsl";
 
 // Simple CTA Button component (accepts passthrough props for testing/data-attrs)
 const CTAButton = ({ children, ...props }) => (
@@ -330,8 +331,8 @@ export default function TorkiqLanding() {
           </div>
         </div>
         <div>
-          <p className="mt-4  text-center text-xs text-slate-500">
-            © {new Date().getFullYear()} torkiq.ai — An <a href="https://everpower.io/">Everpower Labs</a> innovation. All rights reserved.
+          <p className="mt-4 pt-4 text-center text-md text-slate-500">
+            © {new Date().getFullYear()} torkiq.ai | An <a style={{ color:'#6d28d9' }} href="https://everpower.io/" target="_blank" rel="noopener noreferrer">Everpower Labs</a> innovation. All rights reserved.
           </p>
         </div>
       </footer>
