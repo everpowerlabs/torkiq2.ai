@@ -73,12 +73,7 @@ export default function TorkiqLanding() {
         <div className="pointer-events-none absolute -top-24 left-1/2 h-[32rem] w-[32rem] -translate-x-1/2 rounded-full bg-gradient-to-tr from-violet-200 to-indigo-200 opacity-60 blur-3xl dark:from-violet-900/40 dark:to-indigo-900/30" />
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-6 pb-16 pt-14 md:grid-cols-2 md:pt-24">
           <div>
-            <div className="mb-4 flex flex-wrap items-center gap-3">
-              <Badge>Built for Xero</Badge>
-              <Badge>QuickBooks integration — coming soon</Badge>
-              <Badge>Made by Everpower Labs</Badge>
-              <Badge>Co-Founders: Ravi Weerasooriya & Savneeth Sodhi</Badge>
-            </div>
+
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
               AI Agents for Business Owners. <span className="block">Built for Xero.</span>
             </h1>
@@ -104,10 +99,10 @@ export default function TorkiqLanding() {
                   <span className="text-xs text-green-600">✓ Completed</span>
                 </div>
                 <ul className="space-y-2 text-sm">
-                  <li className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4"/> 524 transactions matched</li>
-                  <li className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4"/> 37 exceptions flagged for review</li>
-                  <li className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4"/> GST coding reviewed</li>
-                  <li className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4"/> Variance report generated</li>
+                  <li className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4" /> 524 transactions matched</li>
+                  <li className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4" /> 37 exceptions flagged for review</li>
+                  <li className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4" /> GST coding reviewed</li>
+                  <li className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4" /> Variance report generated</li>
                 </ul>
               </div>
               <div className="mt-4 rounded-2xl border bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-800">
@@ -147,9 +142,9 @@ export default function TorkiqLanding() {
           </div>
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {[
-              {icon: <Zap className="h-5 w-5"/>, title: 'Repetitive tasks', desc: 'Bulk coding, chasing documents, exception handling.'},
-              {icon: <Gauge className="h-5 w-5"/>, title: 'Slow month end', desc: 'Manual reports, cash flow prep, variance analysis.'},
-              {icon: <Shield className="h-5 w-5"/>, title: 'Compliance risk', desc: 'Audit readiness and GST/BAS checks are tedious.'},
+              { icon: <Zap className="h-5 w-5" />, title: 'Repetitive tasks', desc: 'Bulk coding, chasing documents, exception handling.' },
+              { icon: <Gauge className="h-5 w-5" />, title: 'Slow month end', desc: 'Manual reports, cash flow prep, variance analysis.' },
+              { icon: <Shield className="h-5 w-5" />, title: 'Compliance risk', desc: 'Audit readiness and GST/BAS checks are tedious.' },
             ].map((f, i) => (
               <div key={i} className="rounded-2xl border p-6 shadow-sm dark:border-slate-800">
                 <div className="mb-3 inline-flex items-center gap-2 rounded-xl border px-3 py-1 text-xs dark:border-slate-700">
@@ -173,10 +168,10 @@ export default function TorkiqLanding() {
               </p>
               <ul className="mt-6 space-y-4">
                 {[
-                  { icon: <PlugZap className="h-5 w-5"/>, title: 'Seamless Xero integration', desc: 'Connect in minutes with secure OAuth. QuickBooks support coming soon.' },
-                  { icon: <Factory className="h-5 w-5"/>, title: 'Multi agent library', desc: 'Reconciler, Categoriser, Compliance Checker, Report Builder, Cashflow Forecaster and more.' },
-                  { icon: <CalendarCheck className="h-5 w-5"/>, title: 'Always on automations', desc: 'Agents run on schedules or triggers, with human in the loop for exceptions.' },
-                  { icon: <Shield className="h-5 w-5"/>, title: 'Security & compliance', desc: 'Data encrypted at rest and in transit. Role based access. Audit trails.' },
+                  { icon: <PlugZap className="h-5 w-5" />, title: 'Seamless Xero integration', desc: 'Connect in minutes with secure OAuth. QuickBooks support coming soon.' },
+                  { icon: <Factory className="h-5 w-5" />, title: 'Multi agent library', desc: 'Reconciler, Categoriser, Compliance Checker, Report Builder, Cashflow Forecaster and more.' },
+                  { icon: <CalendarCheck className="h-5 w-5" />, title: 'Always on automations', desc: 'Agents run on schedules or triggers, with human in the loop for exceptions.' },
+                  { icon: <Shield className="h-5 w-5" />, title: 'Security & compliance', desc: 'Data encrypted at rest and in transit. Role based access. Audit trails.' },
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3">
                     <div className="mt-1 rounded-lg border p-2 dark:border-slate-700">{item.icon}</div>
@@ -201,7 +196,7 @@ export default function TorkiqLanding() {
                     <p className="font-semibold">{card.title}</p>
                     <ul className="mt-3 space-y-2 text-sm text-slate-600 dark:text-slate-300">
                       {card.bullets.map((b, j) => (
-                        <li key={j} className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4"/> {b}</li>
+                        <li key={j} className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4" /> {b}</li>
                       ))}
                     </ul>
                   </div>
@@ -218,10 +213,10 @@ export default function TorkiqLanding() {
           <h2 className="text-center text-3xl font-extrabold tracking-tight md:text-4xl">How it works</h2>
           <div className="mx-auto mt-10 grid max-w-5xl gap-6 md:grid-cols-4">
             {[
-              { step: '1', title: 'Connect', desc: 'Securely connect Xero (QuickBooks coming soon).'},
-              { step: '2', title: 'Select agents', desc: 'Pick from our library or request bespoke agents.'},
-              { step: '3', title: 'Automate', desc: 'Run on schedules and triggers with review queues.'},
-              { step: '4', title: 'Scale', desc: 'Add agents as your business grows.'},
+              { step: '1', title: 'Connect', desc: 'Securely connect Xero (QuickBooks coming soon).' },
+              { step: '2', title: 'Select agents', desc: 'Pick from our library or request bespoke agents.' },
+              { step: '3', title: 'Automate', desc: 'Run on schedules and triggers with review queues.' },
+              { step: '4', title: 'Scale', desc: 'Add agents as your business grows.' },
             ].map((s, i) => (
               <div key={i} className="rounded-2xl border p-6 text-center shadow-sm dark:border-slate-800">
                 <div className="mx-auto mb-3 flex h-8 w-8 items-center justify-center rounded-full border text-sm font-bold dark:border-slate-700">{s.step}</div>
@@ -243,10 +238,10 @@ export default function TorkiqLanding() {
                 Everpower Labs is a Singapore based technology company specialising in Web3 and AI solutions. From decentralised platforms to intelligent agent systems, we build secure, scalable products used across APAC.
               </p>
               <ul className="mt-6 grid gap-3 text-sm text-slate-700 dark:text-slate-200 md:grid-cols-2">
-                <li className="flex items-center gap-2"><Check className="h-4 w-4"/> Enterprise grade security and encryption</li>
-                <li className="flex items-center gap-2"><Check className="h-4 w-4"/> Role based access and audit trails</li>
-                <li className="flex items-center gap-2"><Check className="h-4 w-4"/> Human in the loop controls</li>
-                <li className="flex items-center gap-2"><Check className="h-4 w-4"/> Regional data residency options</li>
+                <li className="flex items-center gap-2"><Check className="h-4 w-4" /> Enterprise grade security and encryption</li>
+                <li className="flex items-center gap-2"><Check className="h-4 w-4" /> Role based access and audit trails</li>
+                <li className="flex items-center gap-2"><Check className="h-4 w-4" /> Human in the loop controls</li>
+                <li className="flex items-center gap-2"><Check className="h-4 w-4" /> Regional data residency options</li>
               </ul>
             </div>
             <div className="rounded-3xl border p-6 text-sm dark:border-slate-800">
@@ -268,18 +263,18 @@ export default function TorkiqLanding() {
           <div className="mx-auto mt-10 grid max-w-5xl gap-6 md:grid-cols-3">
             {[{
               name: 'Starter', price: '$49/mo', tagline: 'Solo founders & testers', features: ['1 company', 'Up to 2 agents', 'Email support']
-            },{
+            }, {
               name: 'Growth', price: '$149/mo', tagline: 'Growing businesses', features: ['Up to 3 companies', 'Up to 5 agents', 'Priority support']
-            },{
+            }, {
               name: 'Pro', price: 'Let’s talk', tagline: 'Larger teams & bespoke', features: ['Unlimited users', 'Custom agents', 'SLA & onboarding']
             }].map((p, i) => (
-              <div key={i} className={`rounded-3xl border p-6 shadow-sm dark:border-slate-800 ${i===1 ? 'ring-2 ring-violet-600' : ''}`}>
+              <div key={i} className={`rounded-3xl border p-6 shadow-sm dark:border-slate-800 ${i === 1 ? 'ring-2 ring-violet-600' : ''}`}>
                 <p className="text-sm font-semibold">{p.name}</p>
                 <p className="mt-2 text-3xl font-extrabold">{p.price}</p>
                 <p className="text-sm text-slate-500">{p.tagline}</p>
                 <ul className="mt-4 space-y-2 text-sm">
                   {p.features.map((f, j) => (
-                    <li key={j} className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4"/> {f}</li>
+                    <li key={j} className="flex items-start gap-2"><Check className="mt-0.5 h-4 w-4" /> {f}</li>
                   ))}
                 </ul>
                 <div className="mt-6"><CTAButton>Start free trial</CTAButton></div>
@@ -332,8 +327,12 @@ export default function TorkiqLanding() {
               <li><a href="#" className="hover:underline">Terms of Use</a></li>
               <li><a href="#" className="hover:underline">Security</a></li>
             </ul>
-            <p className="mt-4 text-xs text-slate-500">© {new Date().getFullYear()} torkiq.ai — An Everpower Labs innovation. All rights reserved.</p>
           </div>
+        </div>
+        <div>
+          <p className="mt-4  text-center text-xs text-slate-500">
+            © {new Date().getFullYear()} torkiq.ai — An <a href="https://everpower.io/">Everpower Labs</a> innovation. All rights reserved.
+          </p>
         </div>
       </footer>
     </div>
