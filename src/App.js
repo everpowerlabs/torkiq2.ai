@@ -1,4 +1,4 @@
-import TorkiqLanding from "./TorkiqLanding";
+import TorkiqLanding from "./TorkiqLanding.tsx";
 
 export default function App() {
   return <TorkiqLanding />;
