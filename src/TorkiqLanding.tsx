@@ -234,7 +234,7 @@ export default function TorkiqLanding() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid items-center gap-8 md:grid-cols-3">
             <div className="md:col-span-2">
-              <h2 className="text-3xl font-extrabold tracking-tight md:text-4xl">Built by Everpower Labs</h2>
+              <h2 className="text-3xl font-extrabold tracking-tight md:text-4xl">Built by <a style={{ color:'#6d28d9' }}  href="https://everpower.io" target="_blank" rel="noopener noreferrer">Everpower Labs</a></h2>
               <p className="mt-3 max-w-2xl text-slate-600 dark:text-slate-300">
                 Everpower Labs is a technology company specialising in Web3 and AI solutions. From decentralised platforms to intelligent agent systems, we build secure, scalable products used across APAC.
               </p>
