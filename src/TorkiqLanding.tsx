@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Check, ArrowRight, Shield, Zap, BarChart3, PlugZap, Factory, Bot, Gauge, CalendarCheck, Mail } from "lucide-react";
-import { color } from "three/tsl";
+//import { color } from "three/tsl";
 
 // Simple CTA Button component (accepts passthrough props for testing/data-attrs)
 const CTAButton = ({ children, ...props }) => (
@@ -236,7 +236,7 @@ export default function TorkiqLanding() {
             <div className="md:col-span-2">
               <h2 className="text-3xl font-extrabold tracking-tight md:text-4xl">Built by Everpower Labs</h2>
               <p className="mt-3 max-w-2xl text-slate-600 dark:text-slate-300">
-                Everpower Labs is a Singapore based technology company specialising in Web3 and AI solutions. From decentralised platforms to intelligent agent systems, we build secure, scalable products used across APAC.
+                Everpower Labs is a technology company specialising in Web3 and AI solutions. From decentralised platforms to intelligent agent systems, we build secure, scalable products used across APAC.
               </p>
               <ul className="mt-6 grid gap-3 text-sm text-slate-700 dark:text-slate-200 md:grid-cols-2">
                 <li className="flex items-center gap-2"><Check className="h-4 w-4" /> Enterprise grade security and encryption</li>
@@ -263,13 +263,13 @@ export default function TorkiqLanding() {
           <p className="mx-auto mt-3 max-w-2xl text-center text-slate-600 dark:text-slate-300">Fair, transparent plans for every business. Cancel anytime.</p>
           <div className="mx-auto mt-10 grid max-w-5xl gap-6 md:grid-cols-3">
             {[{
-              name: 'Starter', price: '$49/mo', tagline: 'Solo founders & testers', features: ['1 company', 'Up to 2 agents', 'Email support']
+              name: 'Starter', price: '$75/mo', tagline: 'Solo founders & testers', features: ['1 company', 'Up to 2 agents', 'Email support']
             }, {
               name: 'Growth', price: '$149/mo', tagline: 'Growing businesses', features: ['Up to 3 companies', 'Up to 5 agents', 'Priority support']
             }, {
               name: 'Pro', price: 'Let’s talk', tagline: 'Larger teams & bespoke', features: ['Unlimited users', 'Custom agents', 'SLA & onboarding']
             }].map((p, i) => (
-              <div key={i} className={`rounded-3xl border p-6 shadow-sm dark:border-slate-800 ${i === 1 ? 'ring-2 ring-violet-600' : ''}`}>
+              <div key={i} className={`rounded-3xl border p-6 shadow-sm dark:border-slate-800 ${i === 0 ? 'ring-2 ring-violet-600' : ''}`}>
                 <p className="text-sm font-semibold">{p.name}</p>
                 <p className="mt-2 text-3xl font-extrabold">{p.price}</p>
                 <p className="text-sm text-slate-500">{p.tagline}</p>
@@ -311,13 +311,13 @@ export default function TorkiqLanding() {
           <div>
             <p className="font-semibold">About Everpower Labs</p>
             <p className="mt-2 max-w-sm text-slate-600 dark:text-slate-300">
-              Everpower Labs is a Singapore based technology company specialising in Web3 and AI solutions. From decentralised platforms to intelligent agent systems, Everpower Labs builds secure, scalable products that help businesses automate and grow with confidence.
+              Everpower Labs is a technology company specialising in Web3 and AI solutions. From decentralised platforms to intelligent agent systems, Everpower Labs builds secure, scalable products that help businesses automate and grow with confidence.
             </p>
             <div id="team-footer" className="mt-4">
               <p className="font-semibold">Team</p>
               <ul className="mt-2 space-y-1 text-slate-600 dark:text-slate-300">
-                <li>Ravi Weerasooriya — Co-Founder</li>
-                <li>Savneeth Sodhi — Co-Founder & Everpower Labs technology partner</li>
+                <li><a style={{ color:'#6d28d9' }} href="https://www.linkedin.com/in/ravi-weerasooriya-8a31a02/" target="_blank" rel="noopener noreferrer">Ravi Weerasooriya</a> — Co-Founder</li>
+                <li><a style={{ color:'#6d28d9' }} href="https://www.linkedin.com/in/savneet-sodhi-3aa140a0/" target="_blank" rel="noopener noreferrer">Savneet Sodhi</a> — Co-Founder</li>
               </ul>
             </div>
           </div>
