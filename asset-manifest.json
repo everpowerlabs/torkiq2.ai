@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/torkiq2.ai/static/css/main.0411f0cb.css",
-    "main.js": "/torkiq2.ai/static/js/main.ad787efd.js",
+    "main.js": "/torkiq2.ai/static/js/main.a99196c9.js",
     "static/js/453.b72b36d6.chunk.js": "/torkiq2.ai/static/js/453.b72b36d6.chunk.js",
     "index.html": "/torkiq2.ai/index.html",
     "main.0411f0cb.css.map": "/torkiq2.ai/static/css/main.0411f0cb.css.map",
-    "main.ad787efd.js.map": "/torkiq2.ai/static/js/main.ad787efd.js.map",
+    "main.a99196c9.js.map": "/torkiq2.ai/static/js/main.a99196c9.js.map",
     "453.b72b36d6.chunk.js.map": "/torkiq2.ai/static/js/453.b72b36d6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0411f0cb.css",
-    "static/js/main.ad787efd.js"
+    "static/js/main.a99196c9.js"
   ]
 }
